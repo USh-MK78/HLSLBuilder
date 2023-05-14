@@ -1,1 +1,13 @@
-# HLSLBuilder
+# HLSLBuilder  
+cmd: HLSLBuilder.exe Template.xml  
+  
+---
+## XML Template  
+  
+<hlsl>  
+  <Data>  
+    <ShaderPath>Example.hlsl</ShaderPath>  
+    <EntryPointName>main</EntryPointName>  
+    <Profile>ShaderType (ps_4_0, vs_4_0 etc...)</Profile>  
+  </Data>  
+</hlsl>  
