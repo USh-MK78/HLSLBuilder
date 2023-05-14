@@ -4,6 +4,7 @@ cmd: HLSLBuilder.exe Template.xml
 ---
 ## XML Template  
   
+'''xml
 <hlsl>  
   <Data>  
     <ShaderPath>Example.hlsl</ShaderPath>  
@@ -11,3 +12,4 @@ cmd: HLSLBuilder.exe Template.xml
     <Profile>ShaderType (ps_4_0, vs_4_0 etc...)</Profile>  
   </Data>  
 </hlsl>  
+'''
